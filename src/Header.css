@@ -1,0 +1,64 @@
+/* src/Header.css */
+
+.header {
+  background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+}
+
+.logo span {
+  color: #00d2ff;
+  font-weight: 800;
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #00d2ff;
+  transition: width 0.3s ease;
+}
+
+.nav a:hover {
+  color: #00d2ff;
+}
+
+.nav a:hover::after {
+  width: 100%;
+}

@@ -1,0 +1,83 @@
+/* src/About.css */
+
+body {
+  background-color: #f2f4f7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(8px);
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  animation: fadeInContainer 1s ease forwards;
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+@keyframes fadeInContainer {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.about-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #0a66c2;
+  animation: fadeInHeading 1s ease forwards;
+  position: relative;
+}
+
+.about-container h2::after {
+  content: '';
+  width: 60px;
+  height: 4px;
+  background-color: #0a66c2;
+  display: block;
+  margin: 12px auto 0;
+  border-radius: 2px;
+}
+
+@keyframes fadeInHeading {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.about-container p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+  margin: 20px 0;
+  opacity: 0;
+  animation: fadeInParagraph 0.8s ease forwards;
+  transform: translateY(20px);
+}
+
+.about-container p:nth-of-type(1) {
+  animation-delay: 0.5s;
+}
+.about-container p:nth-of-type(2) {
+  animation-delay: 0.7s;
+}
+.about-container p:nth-of-type(3) {
+  animation-delay: 0.9s;
+}
+
+@keyframes fadeInParagraph {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

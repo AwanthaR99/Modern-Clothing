@@ -1,0 +1,46 @@
+/* Footer styles */
+.footer {
+    background-color: #212121; /* Dark background color */
+    color: #f1f1f1; /* Light text color for contrast */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  
+  .footer-links a {
+    color: #f1f1f1; /* Light color for the links */
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #ff4081; /* Light pink hover effect for contrast */
+    text-decoration: underline; /* Underline on hover for emphasis */
+  }
+  
+  /* Hover effect for footer */
+  .footer:hover {
+    background-color: #333; /* Darker background when hovering */
+  }
+  
+  

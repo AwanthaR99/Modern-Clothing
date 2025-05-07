@@ -1,0 +1,132 @@
+.cart-container {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+  color: #333;
+}
+
+.cart-heading {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #203a43;
+}
+
+.cart-empty {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.cart-item {
+  display: flex;
+  background: linear-gradient(145deg, #ffffff, #f3f3f3);
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  gap: 30px;
+}
+
+.cart-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 2px solid #ccc;
+  background: #fff;
+  transition: transform 0.3s;
+}
+
+.cart-image:hover {
+  transform: scale(1.05);
+}
+
+.cart-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cart-details h3 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #111;
+}
+
+.cart-price {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.cart-quantity {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cart-quantity button {
+  padding: 8px 16px;
+  font-size: 1.1rem;
+  background: #00d2ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.cart-quantity button:hover {
+  background: #00a4cc;
+}
+
+.remove-btn {
+  background: #ff5e5e;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+  align-self: flex-start;
+}
+
+.remove-btn:hover {
+  background: #e64444;
+}
+
+.cart-total {
+  font-size: 1.8rem;
+  text-align: right;
+  margin-top: 30px;
+  color: #203a43;
+  font-weight: bold;
+}
+
+.pay-btn {
+  display: block;
+  margin: 25px auto 0;
+  padding: 14px 28px;
+  background: linear-gradient(135deg, #00d2ff, #3a7bd5);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(0, 210, 255, 0.3);
+  transition: transform 0.2s, background 0.3s;
+}
+
+.pay-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #00a4cc, #2a65b0);
+}
