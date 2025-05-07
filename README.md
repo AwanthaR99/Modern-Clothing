@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+🛍️ Modern Clothing – React E-commerce Website
+Modern Clothing is a stylish and responsive e-commerce web application built with React.js. It features category-based shopping for men's and women's fashion and accessories, a dynamic shopping cart, and a streamlined checkout process. Product data is fetched live from the DummyJSON API, allowing you to explore a wide variety of items.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+✨ Features
+🧍‍♂️ Men's and 🧍‍♀️ Women's clothing sections with subcategories (shirts, shoes, dresses, etc.)
 
-## Available Scripts
+🛒 Add to Cart, update quantity, and remove items
 
-In the project directory, you can run:
+💾 Cart persistence using localStorage
 
-### `npm start`
+💰 Payment page mockup
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📄 About Us page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🔄 Category switching with live API integration
 
-### `npm test`
+🎨 Clean UI with responsive design
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🔗 Routing with react-router-dom
 
-### `npm run build`
+🛠️ Tech Stack
+React.js
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+React Router
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Axios
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+DummyJSON API
 
-### `npm run eject`
+CSS (custom styling)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🚀 Getting Started
+bash
+Copy
+Edit
+git clone https://github.com/your-username/modern-clothing.git
+cd modern-clothing
+npm install
+npm start
+![Screenshot 2025-05-07 055242](https://github.com/user-attachments/assets/0ffb75da-f206-4dea-924d-186c0bf568a8)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Screenshot 2025-05-07 055257](https://github.com/user-attachments/assets/8ccfde16-ecb4-484d-b281-f65bad421a15)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Screenshot 2025-05-07 055309](https://github.com/user-attachments/assets/b143f7a3-beb9-46e3-8e29-7035fb3b823a)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+![Screenshot 2025-05-07 055343](https://github.com/user-attachments/assets/88c0304d-137b-4c2c-8732-fd4ec3c46cb0)
+![Screenshot 2025-05-07 055404](https://github.com/user-attachments/assets/bd5e6ee1-052b-4946-b6f6-39aff4551e82)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
